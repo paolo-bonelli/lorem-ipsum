@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+div#principal {
+  margin: 2em 0; 
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr 1fr 1fr);
+  grid-gap: 2em;
+}
+
+.post {
+  border-radius: 2em;
+  border: solid black 1px;
+  padding: 1em;
+}
+
+.post.destacado {
+  box-shadow: 0em 0em 1em blue;
+}
